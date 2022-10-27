@@ -1,0 +1,115 @@
+*{
+    font-family: Verdana;
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.menuHeader{
+    position:fixed;
+    left:0;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: #191919;
+    border-color: silver;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.logoMenu{
+    height: 50%;
+}
+
+.linksMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 20px;
+    color: #999999;
+}
+
+/* Não é possível colocar um href='#' dentro do "li"? */
+
+li{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    white-space: nowrap;
+}
+
+.itemsMenu{
+    color:silver;
+    width: fit-content;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    height: 15vh;
+}
+
+.itemsMenu:link{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.itemsMenu:hover{
+    color: #e7795b;
+    border-color: #e7795b;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+}
+
+.accessMenu{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+}
+
+/* Qual a diferença de "a" e "button"? Quando usar cada um? */
+
+/* Qual a diferença entre "a" e "a:link"?
+Porque não consegui personalizar a cor da fonte direto no "a" e precisei criar uma clase "login"? */
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vw;
+    height: 100%;
+}
+
+a:link{
+    font-size: 0.7rem;
+    font-weight:bold;
+}
+
+.login{
+    color: white;
+    margin-right: 1.5vw;
+}
+
+.login:hover{
+    color: white;
+}
+
+.profileMenu{
+    height: 20px;
+    font-family: Verdana;
+    padding-right: 0.5vw;
+}
+
+.createMenu{
+    border-style: solid;
+    border-color: #e7795b;
+    border-radius: 10px;
+    border-width: 1px;
+    color: white;
+}
+
+.createMenu:hover{
+    background-color: rgb(231,121,91);
+    color: white;
+}
