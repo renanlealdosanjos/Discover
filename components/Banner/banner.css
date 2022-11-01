@@ -1,0 +1,69 @@
+.bannerSection{
+    position: absolute;
+    top:650vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgrey;
+    height: 70vh;
+}
+
+.bannerInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 32vw;
+    margin-top:0;
+    padding: 0;
+}
+
+.infoTitle{
+    text-align: start;
+    font-size: 2.4rem;
+    width: 100%;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 3vh;
+    color: #202020;
+}
+
+.infoText{
+    display: flex;
+    align-items: center;
+    color:#202020;
+    margin-top: 1vh;
+}
+
+.checkbox{
+    margin-right: 0.5vw;
+}
+
+.bttCreate{
+    background-color: #e7795b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+    width: 20vw;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-top: 4vh;
+}
+
+.accountImg{
+    height: 4vh;
+    margin-right: 0.5vw;
+}
+
+.buttonDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+}
