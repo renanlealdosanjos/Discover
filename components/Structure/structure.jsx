@@ -22,7 +22,7 @@ function Structure() {
                     </div>
                     <div className='boxTwo'>
                         <h4 className='titleBoxTwo'>Descubra o universo de tecnologia</h4>
-                        <span className='textBoxTwo'>Ao entrar no Discover, você terá acesso a trilhas ordenadas e sequencias para avançar na direção certa, te conectando ao universo de tecnologia e te ajudando a preparar seu ambiente para escrever suas primeiras linhas de código. Tudo de forma clara e simples.</span>
+                        <span className='textBoxTwo'>Ao entrar na Motim Academy, você terá acesso a trilhas ordenadas e sequencias para avançar na direção certa, te conectando ao universo de tecnologia e te ajudando a preparar seu ambiente para escrever suas primeiras linhas de código. Tudo de forma clara e simples.</span>
                     </div>
                 </div>
                 <div className='Structures'>
@@ -32,7 +32,7 @@ function Structure() {
                     </div>
                     <div className='boxTwo'>
                         <h4 className='titleBoxTwo'>Método de aprendizado eficiente</h4>
-                        <span className='textBoxTwo'>A metodologia do Discover é trabalhada e aperfeiçoada a partir de um conjunto de 12 métodos de aprendizagem ativa que garante o máximo de eficiência nos seus estudos. Foco, muita prática e conexão com devs são os pilares que sustentam a metodologia.</span>
+                        <span className='textBoxTwo'>A metodologia do Motim Academy é trabalhada e aperfeiçoada a partir de um conjunto de 12 métodos de aprendizagem ativa que garante o máximo de eficiência nos seus estudos. Foco, muita prática e conexão com devs são os pilares que sustentam a metodologia.</span>
                     </div>
                 </div>
                 <div className='Structures'>
@@ -60,8 +60,8 @@ function Structure() {
                         <img src={structureFiveImg} alt="Notebook" className='structureImg'/>
                     </div>
                     <div className='boxTwo'>
-                        <h4 className='titleBoxTwo'>Certificação da Rocketseat</h4>
-                        <span className='textBoxTwo'>Ao concluir as aulas e projetos, a Rocketseat atesta sua participação no programa para que você emita um certificado reconhecido pela comunidade de devs e por grandes empresas nacionais e internacionais que você está começando no mundo de desenvolvimento web.</span>
+                        <h4 className='titleBoxTwo'>Certificação da Motim</h4>
+                        <span className='textBoxTwo'>Ao concluir as aulas e projetos, a Motim atesta sua participação no programa para que você emita um certificado reconhecido pela comunidade de devs e por grandes empresas nacionais e internacionais que você está começando no mundo de desenvolvimento web.</span>
                     </div>
                 </div>                                                                                                
             </div>
