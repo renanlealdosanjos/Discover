@@ -12,10 +12,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 15vh;
+    height: 13vh;
     width: 100vw;
     background-color: #191919;
-    border-color: silver;
+    border-color: #353535;
     border-style: solid;
     border-width: 0 0 1px 0;
 }
@@ -30,8 +30,9 @@
     align-items: center;
     justify-content: space-between;
     width: fit-content;
-    padding: 20px;
+    padding: 13px;
     color: #999999;
+    list-style: none;
 }
 
 /* Não é possível colocar um href='#' dentro do "li"? */
@@ -47,7 +48,7 @@ li{
     width: fit-content;
     margin-right: 1vw;
     margin-left: 1vw;
-    height: 15vh;
+    height: 13vh;
 }
 
 .itemsMenu:link{

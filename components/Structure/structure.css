@@ -1,0 +1,106 @@
+.sectionStructure{
+    position: absolute;
+    color: white;
+    margin: 0;
+    top: 454vh;
+
+    height: 210vh;
+
+    background-color: #101010;
+    line-height: normal;
+    padding-top: 15vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.textStructure{
+    position: sticky;
+    top: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
+    width: 20vw;
+    text-align: start;
+    margin-right: 5vw;
+}
+
+.infoStructure{
+    margin-bottom: 3vh;
+    line-height: 1.75;
+    color: silver;
+}
+
+.subTitle{
+    margin-top:0;
+    margin-bottom: 3vh;
+    line-height: 1.75;
+    color: #e7795b;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.Structures{
+    display: flex;
+    flex-wrap: nowrap;
+
+    background-color: rgba(30,30,30,60%);
+
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #303030;
+
+    padding: 20px;
+    margin-bottom: 4vh;
+    height: 30vh;
+    width: 45vw;
+}
+
+.boxOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.structureImg{
+    height: 10vh;
+}
+
+.arrowImg{
+    position: absolute;
+    z-index: 10;
+    margin-top: 25vh;
+}
+
+.boxTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    text-align: start;
+    line-height: 1.5;
+    color: silver;
+
+    padding-right: 10px;
+}
+
+.titleBoxTwo{
+    font-size: 1.3rem;
+    padding-bottom: 1vh;
+}
+
+.textBoxTwo{
+    font-size: 0.9rem;
+}

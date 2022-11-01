@@ -1,9 +1,11 @@
 import styles from './Menu.css'
+import horizontalLogo from './imgs/Horizontal Logo.png'
+import account from './imgs/account.png'
 
 function Menu() {
     return(
         <div className='menuHeader'>
-            <img src="./imgs/Logo com texto.png" alt="Motim Educação" className='logoMenu'/>
+            <img src={horizontalLogo} alt="Motim Educação" className='logoMenu'/>
             <div>
                 <ul className='linksMenu' type='none'>
                     <li><a href="#" className='itemsMenu'>Home</a></li>
@@ -14,7 +16,7 @@ function Menu() {
             </div>
             <div className='accessMenu'>
                 <a className="login" href="#">
-                    <img src="./imgs/logo.png" alt="" className='profileMenu'/>
+                    <img src={account} alt="" className='profileMenu'/>
                     ENTRAR
                 </a>
                 <a className = "createMenu" href="#">CRIAR CONTA</a>

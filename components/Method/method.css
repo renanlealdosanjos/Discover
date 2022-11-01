@@ -1,0 +1,128 @@
+.sectionMethod{
+    position: absolute;
+    top: 123vh;
+    background-color: black;
+    color:silver;
+    height: 331vh;
+    z-index: -10;
+    padding-top: 60vh;
+    line-height: normal;
+    margin: 0;
+}
+
+.methodTitle{
+    width: 45vw;
+    line-height: 7vh;
+    font-size: 2.5rem;
+    margin-bottom: 3vh; 
+}
+
+.stepOne{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    width: 75vw;
+}
+
+.stepOneContent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.stepOneH3{
+    color: silver;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 3vh;
+}
+
+.stepOneP{
+    color: silver;
+    text-align: left;
+    width: 95%;
+    line-height:4vh;
+    margin-bottom: 3vh;
+}
+
+.stepOneList{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 100%;
+}
+
+ul{
+    list-style-type:"-";
+    text-align: start;
+    width: fit-content;
+}
+
+li{
+    white-space: normal;
+    word-break: break-word;
+    text-align: start;
+    line-height: 2.5vh;
+    font-size: 0.85rem;
+
+    padding: 10px;
+
+}
+
+.stepTwo{
+    display: flex;
+    justify-content: flex-start;
+    width: 75vw;
+    margin-top:25vh;
+}
+
+.stepTwoContent{
+    margin-left: 3vw;
+    width: 48%;
+}
+
+.fundamentalsImg{
+    width: 40%;
+}
+
+.stepTwoList{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.rightList{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1vw;
+    margin-right: 4vw;  
+}
+
+.stepThree{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    width: 75vw;
+}
+
+.stepThreeList{
+    display: flex;
+    flex-direction:row;
+    height: 50vh;
+}
+
+.leftList{    
+    width: 19vw;
+}
+
+.especializeImg{
+    width: fit-content;
+    height: fit-content;
+}
+

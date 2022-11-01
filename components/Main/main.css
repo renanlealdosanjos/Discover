@@ -2,11 +2,12 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
-    top: 15vh;
-    left: 0;
-    height: 85vh;
-    width: 100vw;
+    position: absolute;
+    top: 13vh;
+    left:0;
+    height: 110vh;
+    width: 98.9vw;
+    z-index: -1;
 
     background-color: #202020;
 /* 
@@ -16,26 +17,86 @@ section{
 }
 
 /* H1 não permite diminuir o tamanho da fonte? É errado usar ele com fonte pequena? */
-h1{
-    font-weight: normal;
-    background-color: grey;
+h3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 9vh;
+    width: 15vw;
+}
+
+.academyIcon{
+    height: 60px;
 }
 
 /* Porque o texto ficou colado na parte superior do elemento? Precisei usar flexbox para forçar que descesse */
-h2{
+h1{
     padding: 0;
-    margin:0;
-    display: flex;
-    align-items: center;
-    font-size: 3rem;
-    font-weight: bold;
-    background-color: silver-;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
     color: white;
     height: 10vh;
 }
 
 p{
-    background-color: grey;
     color: white;
     width: 50vw;
+}
+
+.create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    margin-top: 4vh
+}
+
+.buttonCreate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7795b;
+    height: 55px;
+    width: 17vw;
+    padding: 4vh;
+    border-radius: 10px;
+    color: white;
+}
+
+.addAccountImg{
+    height: 25px;
+}
+
+.textCreate{
+    width: 22vw;
+    font-size: 0.9rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.communityImg{
+    height: 50px;
+}
+
+.textCommunity{
+    width: 14vw;
+    margin:10px;
+}
+
+.trailer{
+    position: absolute;
+    z-index: 2;
+    top:50vh;
+    border-radius: 10px;
+    border-color: #353535;
+    border-style: solid;
+    border-width: 2px;
+    margin-top:22vh;
+    width: 71vw;
+    height: 40vw;
 }
