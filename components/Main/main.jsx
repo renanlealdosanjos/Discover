@@ -1,4 +1,4 @@
-import styles from './main.css'
+import style from './main.css'
 import addAccountImg from './imgs/addAccount.png'
 import communityImg from './imgs/community.png'
 import academyIcon from './imgs/academyIcon.png'
@@ -13,10 +13,12 @@ function Main() {
             <h1>Plataforma de Capacitação</h1>
             <p>Programa prático e gratuito para você entrar no universo de tecnologia, entender todas as possibilidades da profissão e iniciar sua jornada no mundo dev.</p>
             <div className='create'>
-                <div className='buttonCreate'>
-                    <img src={addAccountImg} className="addAccountImg"/>
-                    <span className='textButton'>CRIAR MINHA CONTA</span>
-                </div>
+                <a href="#" className='linkCreate'>
+                    <div className='buttonCreate'>
+                        <img src={addAccountImg} className="addAccountImg"/>
+                        <span className='textButton'>CRIAR MINHA CONTA</span>
+                    </div>
+                </a>
                 <div className='textCreate'>
                     <img src={communityImg} className="communityImg"/>
                     <span className="textCommunity">Junte-se gratuitamente a mais de <strong>168 mil</strong> devs</span>

@@ -19,6 +19,7 @@
 .textStructure{
     position: sticky;
     top: 20vh;
+    margin-bottom: 25vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
