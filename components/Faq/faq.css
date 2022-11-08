@@ -1,0 +1,85 @@
+.sectionFaq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    top:950vh;
+    background-color: #202020;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    height: fit-content;
+}
+
+.faqTitle{
+    display: flex;
+    align-items: center;
+    color: silver;
+    width: 35vw;
+    height: 20vh;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-right: 20vw;
+    margin-bottom: 20vh;
+}
+
+.faqSupport{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 20vh;
+}
+
+.faqSubtitle{
+    font-size: 0.9rem;
+}
+
+.faqHelp{
+    font-size: 0.9rem;
+}
+
+.faqChat{
+    color: #e7795b;
+    width: fit-content;
+    height: fit-content;
+}
+
+.faqChat:link{
+    font-size: 1rem;
+}
+
+.faqQuestion{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75vw;
+    height: 12vh;
+
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #404040;
+    padding: 0;
+}
+
+.questionNumber{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0vw 2vw;
+}
+
+.questionText{
+    width: 67vw;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.arrowImg{
+    position: relative;
+    height: 3vh;
+    margin:0;
+}
