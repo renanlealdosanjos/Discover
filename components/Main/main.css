@@ -3,16 +3,13 @@ section{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 13vh;
+    top: 0;
     left:0;
-    height: 110vh;
+    height: 125vh;
     width: 98.9vw;
+    padding: 13vh 0;
 
     background-color: #202020;
-/* 
-    background-image: "./imgs/loginBackground.png";
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 /* H1 não permite diminuir o tamanho da fonte? É errado usar ele com fonte pequena? */
@@ -49,16 +46,8 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40vw;
+    width: 45vw;
     margin-top: 4vh;
-}
-
-.buttonCreate{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    font-size: 0.9rem;
-    color: white;
 }
 
 .linkCreate{
@@ -69,13 +58,26 @@ p{
     z-index: 15;
 }
 
+.linkCreate:hover{
+    background-color: #505050;
+}
+
+.buttonCreate{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+
 .addAccountImg{
     height: 25px;
     margin-right: 0.5vw;
 }
 
 .textCreate{
-    width: 22vw;
     font-size: 0.9rem;
     color: white;
     display: flex;
@@ -88,14 +90,14 @@ p{
 }
 
 .textCommunity{
-    width: 14vw;
+    width: 15vw;
     margin:10px;
 }
 
 .trailer{
     position: absolute;
     z-index: 2;
-    top: 70vh;
+    top: 80vh;
     border-radius: 10px;
     border-color: #353535;
     border-style: solid;

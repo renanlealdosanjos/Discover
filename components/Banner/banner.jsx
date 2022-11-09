@@ -7,7 +7,7 @@ function Banner() {
     return(
         <section className='bannerSection'>
             <div className='bannerInfo'>
-                <h3 className='infoTitle'>Comece a programar do zero gratuitamente</h3>               
+                <h3 className='infoTitle'>Aprenda Excel, VBA e Power BI gratuitamente</h3>               
                 <span className='infoText'><img src={checkboxImg} className="checkbox"/>Formação completa com mais de 600 aulas</span>
                 <span className='infoText'><img src={checkboxImg} className="checkbox"/>Desafios práticos com aplicações reais</span>
                 <span className='infoText'><img src={checkboxImg} className="checkbox"/>Conteúdo sempre atualizado</span>

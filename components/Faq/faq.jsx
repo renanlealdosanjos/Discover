@@ -6,15 +6,15 @@ function Faq() {
         <section className="sectionFaq">
             <h2 className='faqTitle'>Perguntas e respostas mais frequentes</h2>
             <div className='faqSupport'>
-                <h6 className='faqSubtitle'>Dificuldade em assinar o Discover?</h6>
+                <h6 className='faqSubtitle'>Dificuldade em se cadastrar na Motim Academy?</h6>
                 <span className='faqHelp'>Entre em contato com nosso time</span>
-                <a href="#" className='faqChat'>Abrir chat</a>
+                <a href="mailto:" className='faqChat'>Abrir chat</a>
             </div>
 
             <a href="#" className='faqQuestion'>
                 <div className='faqQuestion'>
                     <span className='questionNumber'>1</span>
-                    <span className='questionText'>O que é o Discover?</span>
+                    <span className='questionText'>O que é a Motim Academy?</span>
                     <img src={arrowImg} alt="Arrow Down" className='arrowImg'/>
                 </div>
             </a>
@@ -42,14 +42,14 @@ function Faq() {
             <a href="#" className='faqQuestion'>
                 <div className='faqQuestion'>
                     <span className='questionNumber'>5</span>
-                    <span className='questionText'>Não moro no Brasil, o que eu faço?</span>
+                    <span className='questionText'>Qual a diferença pros cursos de nível Master?</span>
                     <img src={arrowImg} alt="Arrow Down" className='arrowImg'/>
                 </div>
             </a>
             <a href="#" className='faqQuestion'>
                 <div className='faqQuestion'>
                     <span className='questionNumber'>6</span>
-                    <span className='questionText'>Posso fazer upgrade do plano durante a assinatura?</span>
+                    <span className='questionText'>Serve para quem está buscando estágio?</span>
                     <img src={arrowImg} alt="Arrow Down" className='arrowImg'/>
                 </div>
             </a>

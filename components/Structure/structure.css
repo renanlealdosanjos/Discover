@@ -1,10 +1,9 @@
 .sectionStructure{
     position: absolute;
     color: white;
-    margin: 0;
     top: 440vh;
 
-    height: 210vh;
+    height: 200vh;
 
     background-color: #101010;
     line-height: normal;
@@ -19,15 +18,15 @@
 .textStructure{
     position: sticky;
     top: 20vh;
-    margin-bottom: 25vh;
+    width: 20vw;
+    margin-bottom: 13vh;
+    margin-right: 5vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
     align-items: flex-start;
-    width: 20vw;
     text-align: start;
-    margin-right: 5vw;
 }
 
 .infoStructure{
@@ -71,18 +70,21 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
     height: 100%;
     width: 20%;
+    background-color: purple;
 }
 
 .structureImg{
     height: 10vh;
+    background-color: orange;
 }
 
 .arrowImg{
-    position: absolute;
-    z-index: 10;
-    margin-top: 25vh;
+    height: 25vh;
+    background-color: green;
+    margin:0;
 }
 
 .boxTwo{

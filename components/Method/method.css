@@ -1,11 +1,11 @@
 .sectionMethod{
     position: absolute;
-    top: 123vh;
+    top: 125vh;
     background-color: black;
     color:silver;
-    height: 317vh;
+    height: 315vh;
     z-index: -10;
-    padding-top: 60vh;
+    padding-top: 55vh;
     line-height: normal;
     margin: 0;
 }
@@ -69,7 +69,6 @@ li{
     text-align: start;
     line-height: 2.5vh;
     font-size: 0.85rem;
-
     padding: 10px;
 
 }
@@ -78,7 +77,7 @@ li{
     display: flex;
     justify-content: flex-start;
     width: 75vw;
-    margin-top:25vh;
+    margin-top:15vh;
 }
 
 .stepTwoContent{
@@ -108,7 +107,7 @@ li{
 .stepThree{
     display: flex;
     justify-content: space-between;
-    margin-top: 10vh;
+    margin-top: 15vh;
     width: 75vw;
 }
 
